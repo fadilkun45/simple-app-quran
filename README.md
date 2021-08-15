@@ -20,9 +20,9 @@
 
 <p>yang mau bantu kontribusi dipersilahkan</P>
 
-<p>Demo : <a href=""></a></P>
+<p>Demo : <a href="https://simple-app-quran.vercel.app"></a></P>
 
-<p> Preview </p>
+<p> Preview :</p>
 
 ![5](https://user-images.githubusercontent.com/59074036/129495615-0479c521-447b-49a0-bde5-d9450f061fd1.PNG)
 
