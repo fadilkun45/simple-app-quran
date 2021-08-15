@@ -4,6 +4,12 @@
 
 <p> API : <a href="https://github.com/wanrabbae/al-quran-indonesia-api">wanrabbae/al-quran-indonesia-api</a></P>
 
+<p> Fitur : </p>
+
+> lengkap 114 surah
+> dilengkapi latin & arti
+> audio untuk membantu 
+
 <P>installasi :</p>
 
 > npm install
