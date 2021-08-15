@@ -7,7 +7,9 @@
 <p> Fitur : </p>
 
 > lengkap 114 surah
+
 > dilengkapi latin & arti
+
 > audio untuk membantu 
 
 <P>installasi :</p>
