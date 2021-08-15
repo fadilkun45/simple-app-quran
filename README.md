@@ -15,6 +15,7 @@
 <P>installasi :</p>
 
 > npm install
+
 > npm run start
 
 <p>yang mau bantu kontribusi dipersilahkan</P>
