@@ -21,3 +21,9 @@
 <p>yang mau bantu kontribusi dipersilahkan</P>
 
 <p>Demo : <a href=""></a></P>
+
+<p> Preview </p>
+
+![5](https://user-images.githubusercontent.com/59074036/129495615-0479c521-447b-49a0-bde5-d9450f061fd1.PNG)
+
+![6](https://user-images.githubusercontent.com/59074036/129495617-1826cdda-68a7-47d4-8ff7-169997821d62.PNG)
