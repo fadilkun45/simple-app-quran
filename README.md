@@ -20,7 +20,7 @@
 
 <p>yang mau bantu kontribusi dipersilahkan</P>
 
-<p>Demo : <a href="https://simple-app-quran.vercel.app"></a></P>
+<p>Demo : <a href="https://simple-app-quran.vercel.app">klik sini</a></P>
 
 <p> Preview :</p>
 
