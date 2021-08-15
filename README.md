@@ -8,3 +8,7 @@
 
 > npm install
 > npm run start
+
+<p>yang mau bantu kontribusi dipersilahkan</P>
+
+<p>Demo : <a href=""></a></P>
