@@ -1,5 +1,34 @@
+/* small additional for styling */
+
 nav {
+    background-color: #FFF;
+    /* color: #FFF; */
+    transition: all ease 340ms;
+}
+
+.nav {
+    position: fixed;
+    display: flex;
     padding: 6px 0 ;
-    background-color: #09a5e8 ;
-    color: #FFF ;
+    top: 0;
+    width: 100%;
+    /* background-color: #09a5e8 ; */
+    align-items: center;
+    justify-content: center;
+    /* color: #FFF ; */
+}
+
+.nav h1 {
+    color: #09a5e8;
+    text-align: start;
+    width: 850px;
+    /* width: 50%; */
+}
+
+.scrolled-nav {
+    background-color: #09a5e8;
+}
+
+.scrolled-nav h1 {
+    color: #FFF;
 }

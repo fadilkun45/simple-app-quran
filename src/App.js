@@ -3,14 +3,32 @@ import DetailSurah from './DetailSurah'
 import Home from './Home'
 import { Navbar } from './Navbar'
 import Search from './Search'
+import './css/app.css'; // adding css fro styling
+import { useState } from 'react' // import react
 
 
 function App() {
 
+  /**
+   *  some logic for styling navbar while scrolled with certain height
+   * */ 
+  const [scrolled, setScrolled] = useState()  
+
+
+  const scrollListener = () => {
+    if (window.scrollY > 15) {
+      setScrolled(true)
+    } else {
+      setScrolled(false)
+    }
+  }
+
+  window.addEventListener('scroll', scrollListener);
+
 
   return (
   <Router>
-  <Navbar />
+  <Navbar scrolled={scrolled}/>
    <main>
     <Route exact path="/">
     <Home />
@@ -22,7 +40,7 @@ function App() {
       <Search />
     </Route>
    </main>
-   </Router>
+  </Router>
   );
 }
 

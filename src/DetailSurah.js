@@ -10,14 +10,15 @@ const DetailSurah = () => {
     let [dataDetail, setDataDetail] = useState()
     let [stickyObj, setStickyObj] = useState(false)
     let {data,loadingstat,error} = FetchData('https://api-alquranid.herokuapp.com/surah/' + id);
-    let {data:dataDetails} = FetchData('https://api-alquranid.herokuapp.com/surah/');
+    let { data: dataDetails } = FetchData('https://api-alquranid.herokuapp.com/surah/');
+
 
     useEffect(() => {
         dataDetails && setDataDetail(dataDetails[id - 1])
         console.log(dataDetails)
         console.log(dataDetail)
         console.log(id - 1)
-    },)
+    }, [loadingstat]) // only logging every after fetching from api
 
 
     let handleScroll = () => {
@@ -40,9 +41,9 @@ const DetailSurah = () => {
             }
             {
                 dataDetail && <div className={stickyObj ? 'info-surah sticky' : 'info-surah'}>
-                     <h2>Surah {dataDetail.nama}</h2>
-                     <p>Asma : {dataDetail.asma}</p>
-                    <p>jumlah Ayat :{dataDetail.ayat}</p>
+                    <h2>Surah {dataDetail.nama}</h2>
+                    <p>Asma : {dataDetail.asma}</p>
+                    <p>Jumlah Ayat : {dataDetail.ayat}</p>
                     <AudioPlayer
                         
                         src={dataDetail.audio}
@@ -53,7 +54,7 @@ const DetailSurah = () => {
         
             {
                 data && data.map((datas) => (
-                   <div className="detail">
+                   <div className="detail" key={datas.nomor}> {/* just some react things about mapping data */}
                         <p>{datas.nomor}</p>
                        <div className="details">
                         <p>{datas.ar}</p>
