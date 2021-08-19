@@ -1,9 +1,8 @@
 /**
  * add some dependencies
  */
-import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './css/navbar.css'
+import 'css/navbar.css'
 
 export const Navbar = ({scrolled}) => { // getting props from App.js for navbar styling logic
   

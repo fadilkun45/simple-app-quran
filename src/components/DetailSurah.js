@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react';
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 import { useParams } from 'react-router-dom';
-import './css/surahdetail.css'
-import FetchData from './fetchData';
+import 'css/surahdetail.css'
+import FetchData from 'apis/fetchData';
 import React from 'react'
 const DetailSurah = () => {
     let {id} = useParams()
@@ -18,7 +18,7 @@ const DetailSurah = () => {
         console.log(dataDetails)
         console.log(dataDetail)
         console.log(id - 1)
-    }, [loadingstat]) // only logging every after fetching from api
+    }, [dataDetails, dataDetail, id])
 
 
     let handleScroll = () => {

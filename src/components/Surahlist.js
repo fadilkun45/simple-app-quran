@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
-import './css/surahlist.css'
-import FetchData from './fetchData'
+import 'css/surahlist.css'
+import FetchData from 'apis/fetchData'
 
 const Surahlist = () => {
   let {data,loadingstat,error} = FetchData('https://api-alquranid.herokuapp.com/surah/');
