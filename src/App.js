@@ -1,9 +1,9 @@
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-import DetailSurah from './DetailSurah'
-import Home from './Home'
-import { Navbar } from './Navbar'
-import Search from './Search'
-import './css/app.css'; // adding css fro styling
+import DetailSurah from 'components/DetailSurah'
+import Home from 'components/Home'
+import { Navbar } from 'components/Navbar'
+import Search from 'components/Search'
+import 'css/app.css'; // adding css fro styling
 import { useState } from 'react' // import react
 
 

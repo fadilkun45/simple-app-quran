@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useParams } from 'react-router-dom';
-import FetchData from './fetchData';
+import FetchData from 'apis/fetchData';
 
 const Search = () => {
     let id = 2
