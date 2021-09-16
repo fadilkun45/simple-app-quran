@@ -52,6 +52,7 @@ p:nth-child(3){
     outline: none ;
     padding: 4px 8px ;
     color: #09a5e8 ;
+    width: 80%;
 }
 
 @media only screen and (max-width : 660px ){

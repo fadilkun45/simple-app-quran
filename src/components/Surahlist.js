@@ -20,7 +20,7 @@ const Surahlist = () => {
       <h2>Daftar Surah</h2>
         {/* saat data belom ke load maka searchbar tidak akan muncul */}
          {
-           filterData ? <input type="text" className="search" onKeyUp={handleChange} /> : ""
+           filterData ? <input type="text" className="search" onKeyUp={handleChange} placeholder="cari surah bedasarkan nama" /> : ""
          }
         <div className="surah-list">
        
