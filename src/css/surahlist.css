@@ -45,6 +45,15 @@ p:nth-child(3){
     color: #FFF ;
 }
 
+.search {
+    display: block;
+    margin: 15px auto ;
+    border: 1px #09a5e8 solid ;
+    outline: none ;
+    padding: 4px 8px ;
+    color: #09a5e8 ;
+}
+
 @media only screen and (max-width : 660px ){
    .surah-list {
     width: 330px ;
@@ -68,6 +77,8 @@ p:nth-child(3){
 .surah-card p {
     font-size: 12px ;
 }
+
+
 
 
 }

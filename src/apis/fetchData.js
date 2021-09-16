@@ -15,7 +15,7 @@ const FetchData = (url) => {
         return res.json();
     })
     .then(data => {
-        setData(data["data"])
+            setData(data["data"])
         setLoadingstat(false)
         setError(null)
     })
